@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import jam_imageOne from '../assets/girl_jam1.jpeg'
+import jam_imageTwo from '../assets/jam_img2.jpeg'
+import jam_imageThree from '../assets/jam_img3.jpeg'
 
 const Container = styled.div`
   width: 100%;
@@ -67,24 +70,15 @@ const JamThree = () => {
         <BoxContainer>
           <Left>
             <Boxes>
-              <img
-                src="https://img.freepik.com/free-photo/cute-young-woman-playing-guitar-indoors_23-2149140612.jpg?w=2000"
-                alt="cover"
-              />
+              <img src={jam_imageOne} alt="cover" />
             </Boxes>
             <Boxes>
-              <img
-                src="https://media.istockphoto.com/id/1149030677/photo/student-playing-drums-while-listening-music-at-class.jpg?s=612x612&w=0&k=20&c=JV-7fK4m4UidZzd25MlIbjK1qNJ3URobTrDI9EOnxHQ="
-                alt="cover"
-              />
+              <img src={jam_imageTwo} alt="cover" />
             </Boxes>
           </Left>
           <Right>
             <Box>
-              <img
-                src="https://assets.cntraveller.in/photos/626aa5af3c1dc6cdeba390f1/master/w_1600%2Cc_limit/Entre%2520nos%2520live%2520at%2520the%2520Heritage%2520Home%2520Concert.jpg"
-                alt="cover"
-              />
+              <img src = {jam_imageThree} alt="cover" />
             </Box>
           </Right>
         </BoxContainer>

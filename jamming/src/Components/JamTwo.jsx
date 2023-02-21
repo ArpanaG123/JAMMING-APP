@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import jam_imageOne from '../assets/girl_jam1.jpeg'
+import jam_imageTwo from '../assets/jam_img2.jpeg'
 
 const Container = styled.div`
   width: 100%;
@@ -25,15 +27,15 @@ const BoxContainer = styled.div`
   grid-template-columns: auto auto;
 `;
 const Boxes = styled.div`
-  width: 32vw;
-  height: 300px;
+  width: 33vw;
+  height:500px;
   border-radius: 20px;
   overflow: hidden;
   background-color: aliceblue;
 
   img {
-    width: 32vw;
-    height: 300px;
+    width: 33vw;
+    height:500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,16 +48,10 @@ const JamTwo = () => {
       <Wrapper>
         <BoxContainer>
           <Boxes>
-            <img
-              src="https://img.freepik.com/free-photo/cute-young-woman-playing-guitar-indoors_23-2149140612.jpg?w=2000"
-              alt="cover"
-            />
+            <img src={jam_imageOne} alt="cover" />
           </Boxes>
           <Boxes>
-            <img
-              src="https://assets.cntraveller.in/photos/626aa5af3c1dc6cdeba390f1/master/w_1600%2Cc_limit/Entre%2520nos%2520live%2520at%2520the%2520Heritage%2520Home%2520Concert.jpg"
-              alt="cover"
-            />
+            <img src = {jam_imageTwo} alt="cover" />
           </Boxes>
         </BoxContainer>
       </Wrapper>

@@ -22,7 +22,7 @@ const JamOne = () => {
   return (
     <Container>
       <Wrapper>
-      <video src={video} width="800" height="300"  autoplay="true" className='videoJam' />
+      <video src={video} width="800" height="500"  autoplay="true" className='videoJam' />
       </Wrapper>
     </Container>
   );

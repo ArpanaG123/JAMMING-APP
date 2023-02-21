@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import imagSnip from "../assets/snip1.png";
+
 const Container = styled.div`
   width: 100%;
   height: 90px;

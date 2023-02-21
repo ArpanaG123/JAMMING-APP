@@ -68,9 +68,7 @@ const NavBar = ({setJamImage}) => {
         <Right>
           <BoxContainer>
             <select className="dropdown" onChange={(e) =>setJamImage(e.target.value) }>
-              <option value="select" selected>
-                select
-              </option>
+              <option value="select" selected>select</option>
               <option value="user1">1</option>
               <option value="user2">2</option>
               <option value="user3">3</option>
